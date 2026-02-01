@@ -1,0 +1,47 @@
+.card{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    border: 10px solid rgb(117, 8, 8);
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(234, 235, 197);
+    margin-top: 50px;
+    
+}
+.card:hover{
+    transform: translateY(-15px) scale(1.02);
+    box-shadow:5px 15px 30px black;
+}
+#playing-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.left{
+    align-self: flex-start;
+}
+.middle{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    align-self: flex-end;
+}
+h1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+img:hover{
+    border: 2px solid black;
+    box-shadow:5px 15px 30px rgb(117, 8, 8);
+}
