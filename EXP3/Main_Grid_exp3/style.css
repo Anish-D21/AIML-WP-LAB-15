@@ -1,0 +1,44 @@
+/* Flexbox for the Navbar (One-Dimensional) */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Horizontal spacing */
+    align-items: center;            /* Vertical alignment */
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Modern spacing between flex items */
+}
+
+/* Grid for the Page Layout (Two-Dimensional) */
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr; /* 3 columns */
+    grid-template-rows: auto auto;        /* 2 rows */
+    gap: 15px;
+    padding: 20px;
+}
+
+.sidebar {
+    grid-row: span 2; /* Spans across two rows */
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.card {
+    background-color: #e0e7ff;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #4f46e5;
+}
+
+.footer {
+    grid-column: span 3; /* Spans across all three columns */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

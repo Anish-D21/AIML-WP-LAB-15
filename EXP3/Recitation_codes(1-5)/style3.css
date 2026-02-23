@@ -1,0 +1,28 @@
+#navbar {
+  position: fixed;   /* keeps it fixed in place */
+  top: 0;            /* sticks to the top of the page */
+  left: 0;           /* aligns to the left */
+  width: 100%;       /* full width */
+  background: #4c0808;  /* add background so text is readable */
+  padding: 10px;
+  border-bottom: 1px solid #150101; /* optional styling */
+  height: 50px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+#main-doc {
+  margin-top: 50px; /* adjust based on navbar height */
+}
+#navbar a{
+     color: aliceblue;
+     text-decoration: none;
+     margin: 0 10px;
+     font-style: italic;
+
+     
+}
